@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+}
+
+
+body{
+    background:#f4d04e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main{
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 300px;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    box-shadow: 10px 10px 3px black;
+    
+    
+}
+
+main>img{
+    border-radius: 15px;
+    max-width: 300px;
+   
+}
+main>div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+button{
+    background-color: #f4d04e;
+    border: none;
+    width: max-content;
+    font-weight: 800;
+    padding: 5px;
+}
+
+
